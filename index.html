@@ -270,7 +270,85 @@
       </div>
     </div>
   </section>
+<!-- Services Section -->
+<section id="services" class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-gray-800 mb-4">My Services</h2>
+      <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
+    </div>
 
+    <!-- Slider -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Service 1 -->
+        <div class="swiper-slide">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition p-8 text-center">
+            <div class="text-5xl mb-4 text-purple-600">📝</div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Manual Testing</h3>
+            <p class="text-gray-600 text-sm">Designing and executing test cases to ensure software quality.</p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="swiper-slide">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition p-8 text-center">
+            <div class="text-5xl mb-4 text-purple-600">⚙️</div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Automation Testing</h3>
+            <p class="text-gray-600 text-sm">Building automated scripts to save time and improve accuracy.</p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="swiper-slide">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition p-8 text-center">
+            <div class="text-5xl mb-4 text-purple-600">🐞</div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Bug Reporting</h3>
+            <p class="text-gray-600 text-sm">Identifying and tracking bugs with clear documentation.</p>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="swiper-slide">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition p-8 text-center">
+            <div class="text-5xl mb-4 text-purple-600">👩‍💻</div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Usability Testing</h3>
+            <p class="text-gray-600 text-sm">Ensuring the application is user-friendly and intuitive.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination mt-6"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SwiperJS CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 3000, // auto slide every 3s
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+</script>
   <!-- Projects Section -->
   <section id="projects" class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-4">
@@ -322,6 +400,7 @@
         </button>
       </form>
     </div>
+
 
 
 
