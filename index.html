@@ -1,95 +1,5 @@
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mariam Hamed - Software Tester Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <script>
-  function scrollToSection(id) {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-</script>
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-    .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
-    .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
-    .skill-bar { transition: width 1s ease-in-out; }
-    .fade-in { opacity: 0; transform: translateY(20px); animation: fadeIn 0.6s ease forwards; }
-    @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
-    .nav-link { position: relative; }
-    .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -5px; left: 0; background: #667eea; transition: width 0.3s ease; }
-    .nav-link:hover::after { width: 100%; }
-  </style>
-</head>
-<body class="bg-gray-50">
-
-  <!-- Navigation -->
-  <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="flex justify-between items-center py-4">
-        <div class="text-2xl font-bold text-gray-800">Mariam Hamed</div>
-        <div class="hidden md:flex space-x-8">
-          <a href="#home" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Home</a>
-          <a href="#about" class="nav-link text-gray-600 hover:text-gray-800 font-medium">About</a>
-          <a href="#skills" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Skills</a>
-          <a href="#projects" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Projects</a>
-          <a href="#contact" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Contact</a>
-        </div>
-        <button id="mobile-menu-btn" class="md:hidden text-gray-600">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-          </svg>
-        </button>
-      </div>
-    </div>
-    <div id="mobile-menu" class="md:hidden bg-white border-t hidden">
-      <div class="px-4 py-2 space-y-2">
-        <a href="#home" class="block py-2 text-gray-600">Home</a>
-        <a href="#about" class="block py-2 text-gray-600">About</a>
-        <a href="#skills" class="block py-2 text-gray-600">Skills</a>
-        <a href="#projects" class="block py-2 text-gray-600">Projects</a>
-        <a href="#contact" class="block py-2 text-gray-600">Contact</a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="home" class="gradient-bg min-h-screen flex items-center pt-16">
-    <div class="max-w-6xl mx-auto px-4 text-center text-white">
-      <div class="fade-in">
-        <div class="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden">
-          <img src="personal.jpg" alt="Mariam Hamed" class="w-full h-full object-cover">
-        </div>
-        <h1 class="text-5xl md:text-6xl font-bold mb-4">Mariam Hamed</h1>
-        <h2 class="text-2xl md:text-3xl font-light mb-6">Software Tester & QA Engineer</h2>
-        <p class="text-xl md:text-2xl font-light mb-10 max-w-3xl mx-auto opacity-90">
-          Passionate about ensuring software quality through comprehensive testing strategies, automation, and continuous improvement processes.
-        </p>
-        <div class="space-x-4">
-          <button onclick="scrollToSection('projects')" class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">View My Work</button>
-          <button onclick="scrollToSection('contact')" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-600 transition duration-300">Get In Touch</button>
-        </div>
-        <div class="mt-6 space-x-4">
-          <a href="https://www.linkedin.com/in/mariamhamed122" target="_blank" class="inline-block text-white bg-blue-600 px-5 py-2 rounded-full font-semibold hover:bg-blue-700 transition duration-300">LinkedIn</a>
-          <a href="https://github.com/Mariam-Hamed112" target="_blank" class="inline-block text-white bg-gray-800 px-5 py-2 rounded-full font-semibold hover:bg-gray-900 transition duration-300">GitHub</a>
-          <a href="Mariam_Hamed.pdf" target="_blank" class="inline-block text-white bg-green-600 px-5 py-2 rounded-full font-semibold hover:bg-green-700 transition duration-300">Download CV</a>
-          <a href="https://www.upwork.com/freelancers/~011328b66cddef9188" target="_blank" class="inline-block text-white bg-emerald-600 px-5 py-2 rounded-full font-semibold hover:bg-emerald-700 transition duration-300">Upwork</a>
-  <a href="https://www.freelancer.com/u/mariamh112?sb=t" target="_blank" class="inline-block text-white bg-teal-600 px-5 py-2 rounded-full font-semibold hover:bg-teal-700 transition duration-300">Freelancer</a>
-</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
- 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -179,8 +89,7 @@
       </div>
     </div>
   </section>
-
-  <!-- About Section -->
+<!-- About Section -->
   <section id="about" class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-4">
       <div class="text-center mb-16">
@@ -188,52 +97,47 @@
         <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
       </div>
       <div class="grid md:grid-cols-2 gap-12 items-center">
+        
+        <!-- صورة شخصية -->
         <div>
           <div class="w-64 h-64 mx-auto rounded-full overflow-hidden">
-            <img src="personal.jpg" alt="" class="w-full h-full object-cover">
+            <img src="personal.jpg" alt="Mariam Hamed" class="w-full h-full object-cover">
           </div>
         </div>
+
+        <!-- النص -->
         <div>
           <h3 class="text-2xl font-semibold text-gray-800 mb-6">Software Tester</h3>
-          <p class="text-gray-600 mb-6 leading-relaxed">
-            I am a passionate Software Tester dedicated to ensuring the quality and efficiency of software applications. 
-            I specialize in designing and executing test cases, identifying bugs, and working closely with developers to deliver 
-            reliable and user-friendly solutions. My focus is on improving performance, usability, and overall user experience, 
-            while making sure the product meets business goals and industry standards.
+          <p class="text-gray-600 leading-relaxed mb-4">
+            I am a passionate Software Tester dedicated to ensuring the quality and efficiency of software applications.
+            I specialize in designing and executing test cases, identifying bugs, and collaborating closely with developers to deliver reliable and user-friendly solutions.
+            My focus is on improving performance, usability, and overall user experience, while ensuring the product meets business goals and industry standards.
           </p>
-          <div class="grid grid-cols-2 gap-4 mb-6">
+
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Currently, I am pursuing my studies at the <strong>Faculty of Engineering – Mansoura National University (2024 – Present)</strong> 
+            and participating in the <strong>Digital Egypt Pioneers Initiative (June 2025 – Present)</strong>, which is enhancing my technical and professional skills.
+          </p>
+
+          <p class="text-gray-600 leading-relaxed mb-4">
+            I continuously explore new tools and testing techniques, enjoy problem-solving, and actively participate in different activities 
+            to develop both my technical and interpersonal skills.
+            I am also expanding my expertise through specialized courses (e.g., <strong>February 2025 course</strong>) 
+            to stay updated with the latest practices in software quality assurance and testing.
+          </p>
+
+          <!-- Email -->
+          <div class="grid grid-cols-1 gap-4 mt-8">
             <div class="bg-gray-50 p-4 rounded-lg">
               <div class="text-2xl font-bold text-purple-600">📧</div>
               <div class="text-gray-600 mt-1">hamedmariam407@gmail.com</div>
             </div>
-            <div class="bg-gray-50 p-4 rounded-lg">
-              <div class="text-2xl font-bold text-purple-600">💼</div>
-              <a href="https://www.linkedin.com/in/mariamhamed122" target="_blank" class="text-gray-600 mt-1 block hover:text-purple-600 transition">
-                LinkedIn Profile
-              </a>
-            </div>
-            <div class="bg-gray-50 p-4 rounded-lg">
-              <div class="text-2xl font-bold text-purple-600">🐙</div>
-              <a href="https://github.com/Mariam-Hamed112" target="_blank" class="text-gray-600 mt-1 block hover:text-purple-600 transition">
-                GitHub Profile
-              </a>
-            </div>
-            <div class="bg-gray-50 p-4 rounded-lg">
-              <div class="text-2xl font-bold text-purple-600">🌍</div>
-              <a href="https://www.upwork.com/freelancers/~011328b66cddef9188" target="_blank" class="text-gray-600 mt-1 block hover:text-purple-600 transition">
-                Upwork Profile
-              </a>
-              <a href="https://www.freelancer.com/u/mariamh112" target="_blank" class="text-gray-600 mt-1 block hover:text-purple-600 transition">
-                Freelancer Profile
-              </a>
-            </div>
           </div>
-          <a href="Mariam_Hamed.pdf" target="_blank" class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition duration-300">Download CV</a>
+
         </div>
       </div>
     </div>
   </section>
-  
 <!-- Education Section -->
 <section id="education" class="py-20 bg-gray-50">
   <div class="max-w-6xl mx-auto px-4">
@@ -418,192 +322,6 @@
         </button>
       </form>
     </div>
-<!-- Education Section -->
-<section id="education" class="py-20 bg-gray-50">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="text-center mb-16">
-      <h2 class="text-4xl font-bold text-gray-800 mb-4">Education</h2>
-      <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-8">
-      <!-- University -->
-      <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
-        <div class="text-4xl mb-4">🎓</div>
-        <h3 class="text-xl font-semibold mb-3 text-gray-800">B.Sc. in Computer and Communications Engineering</h3>
-        <p class="text-gray-600">Faculty of Engineering – Mansoura National University</p>
-        <p class="text-gray-500 mt-2">2024 – Present</p>
-        <p class="text-gray-500 mt-2">Currently pursuing undergraduate studies, focusing on software testing, programming, and quality assurance.</p>
-      </div>
-
-      <!-- English Course -->
-      <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
-        <div class="text-4xl mb-4">📘</div>
-        <h3 class="text-xl font-semibold mb-3 text-gray-800">English Course</h3>
-        <p class="text-gray-600">Enrich Academy</p>
-        <p class="text-gray-500 mt-2">February 2025</p>
-        <p class="text-gray-500 mt-2">Completed a professional English language course to improve communication and technical writing skills.</p>
-      </div>
-
-      <!-- Digital Egypt Pioneers Initiative -->
-      <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
-        <div class="text-4xl mb-4">🌐</div>
-        <h3 class="text-xl font-semibold mb-3 text-gray-800">Digital Egypt Pioneers Initiative</h3>
-        <p class="text-gray-600">Remote / Egypt</p>
-        <p class="text-gray-500 mt-2">June 2025 – Present</p>
-        <p class="text-gray-500 mt-2">Participated in Egypt’s national initiative to develop digital and technical skills through remote learning and hands-on training.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Skills Section -->
-  <section id="skills" class="py-20 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-800 mb-4">Technical Skills</h2>
-        <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
-      </div>
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Testing Types -->
-        <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
-          <div class="text-4xl mb-4">🔍</div>
-          <h3 class="text-xl font-semibold mb-4 text-gray-800">Testing Types</h3>
-          <ul class="space-y-2 text-gray-600">
-            <li>• Functional Testing</li>
-            <li>• Regression Testing</li>
-            <li>• Performance Testing</li>
-            <li>• Security Testing</li>
-            <li>• API Testing</li>
-            <li>• Mobile Testing</li>
-          </ul>
-        </div>
-
-        <!-- Automation Tools -->
-        <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
-          <div class="text-4xl mb-4">🤖</div>
-          <h3 class="text-xl font-semibold mb-4 text-gray-800">Automation Tools</h3>
-          <div class="space-y-3">
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-sm text-gray-600">Selenium</span>
-                <span class="text-sm text-gray-600">95%</span>
-              </div>
-              <div class="bg-gray-200 rounded-full h-2">
-                <div class="skill-bar bg-purple-600 h-2 rounded-full" style="width: 95%"></div>
-              </div>
-            </div>
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-sm text-gray-600">Cypress</span>
-                <span class="text-sm text-gray-600">90%</span>
-              </div>
-              <div class="bg-gray-200 rounded-full h-2">
-                <div class="skill-bar bg-purple-600 h-2 rounded-full" style="width: 90%"></div>
-              </div>
-            </div>
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-sm text-gray-600">Postman</span>
-                <span class="text-sm text-gray-600">88%</span>
-              </div>
-              <div class="bg-gray-200 rounded-full h-2">
-                <div class="skill-bar bg-purple-600 h-2 rounded-full" style="width: 88%"></div>
-              </div>
-            </div>
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-sm text-gray-600">JMeter</span>
-                <span class="text-sm text-gray-600">85%</span>
-              </div>
-              <div class="bg-gray-200 rounded-full h-2">
-                <div class="skill-bar bg-purple-600 h-2 rounded-full" style="width: 85%"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Programming -->
-        <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
-          <div class="text-4xl mb-4">💻</div>
-          <h3 class="text-xl font-semibold mb-4 text-gray-800">Programming</h3>
-          <div class="space-y-3">
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-sm text-gray-600">Java</span>
-                <span class="text-sm text-gray-600">85%</span>
-              </div>
-              <div class="bg-gray-200 rounded-full h-2">
-                <div class="skill-bar bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
-              </div>
-            </div>
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-sm text-gray-600">C</span>
-                <span class="text-sm text-gray-600">80%</span>
-              </div>
-              <div class="bg-gray-200 rounded-full h-2">
-                <div class="skill-bar bg-blue-600 h-2 rounded-full" style="width: 80%"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-800 mb-4">Featured Projects</h2>
-        <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Project 1 -->
-        <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg card-hover">
-          <div class="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-6xl text-white">
-            🛒
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-semibold mb-3 text-gray-800">E-commerce Platform Testing</h3>
-            <p class="text-gray-600 mb-4">Comprehensive testing of a large-scale e-commerce platform including payment processing, inventory management, and user authentication.</p>
-            <div class="flex flex-wrap gap-2 mb-4">
-              <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Selenium</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-gray-50">
-    <div class="max-w-4xl mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-gray-800 mb-4">Contact Me</h2>
-        <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
-        <p class="text-gray-600 mt-4">Feel free to reach out for collaborations, projects, or just a friendly hello 👋</p>
-      </div>
-      <form action="mailto:hamedmariam407@gmail.com" method="post" enctype="text/plain" class="bg-white p-8 rounded-xl shadow-lg space-y-6">
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Name</label>
-          <input type="text" name="name" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600" required>
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Email</label>
-          <input type="email" name="email" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600" required>
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Message</label>
-          <textarea name="message" rows="5" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600" required></textarea>
-        </div>
-        <button type="submit" class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition duration-300">
-          Send Message
-        </button>
-      </form>
-    </div>
-
-
 
 
 
